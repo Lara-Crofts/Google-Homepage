@@ -1,0 +1,206 @@
+ html {
+  height: 100%;
+  width: 100%;
+}
+
+/* BASIC STYLES */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+/* This move about and store on header nav used margintop to see difference */
+
+ul li {
+  line-height: 28px;
+  list-style: none;
+  height: 15px;
+  font-size: 14px;
+  color: #000;
+  font-family: Roboto;
+  text-decoration: none;
+}
+
+/* NAV BAR DETAILS  */
+
+.nav-links {
+  color: #fff;
+}
+
+.nav_bar {
+  float: right;
+  margin-right: 15px;
+}
+
+.nav_bar li {
+  display: inline;
+  vertical-align: middle;
+  padding:0px 5px;
+  margin:5px 3px;
+}
+
+/* SIGN IN BUTTON */
+
+.sign_in_account {
+  text-align: center; 
+  align-items: center;
+  background: #4285F4; 
+  color: fff; 
+  margin-right: 25px;
+  margin:5px;
+  padding: 9px 16px;
+  border-radius: 5px;
+  border: none; 
+  font-weight: bold;
+}
+
+.sign_in_account a {
+  color: white;
+}
+
+.nav_bar_left li {
+  float: none;
+  display: inline-block;
+  margin-right: 0px;
+  padding: 27px 4px 15px 5px;
+}
+
+/* REMOVES UNDERLINE OF LINKS & ADDS COLOR TO LINK TEXT  */ 
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* GOOGLE LOGO  */
+
+.googlebrand {
+  display: block;
+  margin: 0 auto;
+  height:100px;
+  width:100px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.google_logo {
+  display: block;  
+  margin: 40px 0px 0px -150px;
+}
+
+/* FORM PORTION TO INPUT SEARCH BELOW LOGO  */
+
+.form {
+  text-align: center;
+}
+
+#form-search { 
+  text-indent: 30px;
+  width: 450px;
+  height: 10px;
+  line-height: 35px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  border: 1px solid #E0E0E0;
+}
+
+#magnify-icon {
+  position:relative;
+  top: 4px;
+  right:-35px;
+}
+
+.form #form-search {
+  padding: 0 25px;
+}
+
+#form-search:hover, #form-search:active {
+  box-shadow: 1px 3px 3px #d8d8d8; 
+}
+
+/* BUTTONS UNDER GOOGLE SEARCH */ 
+
+.buttons {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+  margin: 9px;
+}
+
+.buttonOne {
+margin-left: 0px;
+ padding: 10px 10px;
+ border-radius: 3px;
+ color: #404040;
+ background-color: #F8F8F8;
+ border-style: none;
+ cursor: pointer; 
+}
+
+.buttonOne:hover {
+  opacity: 0.7;
+  border: 1px #E8E8E8 solid;
+}
+
+.buttonTwo {
+ padding: 10px 10px;
+ border-radius: 3px;
+ color: #404040;
+ background-color: #F8F8F8;
+ border-style: none;
+ cursor: pointer; 
+}
+
+.buttonTwo:hover {
+  opacity: 0.7;
+  border: 1px #E8E8E8 solid;
+  
+}
+
+/* FOOTER */
+
+.footer {   
+  position:absolute;
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  bottom:0;
+  width:100%;
+  height:40px;
+ }
+
+/* align text to center of footer links */ 
+
+.footer div {
+  font-size: 13px;
+  text-align: center; 
+}
+
+.footer a {
+  color: #797979;
+  padding: 10px;
+}
+
+.main-footerlink-right {
+  float: right; 
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none; 
+}
+
+.main-footerlink-left {
+  float: left; 
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none; 
+}
